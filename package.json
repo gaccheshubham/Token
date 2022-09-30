@@ -16,13 +16,16 @@
     "@types/node": "^16.11.59",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "assert": "^2.0.0",
     "crypto-browserify": "^3.12.0",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
     "typescript": "^4.8.3",
+    "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,9 +42,11 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
     ],
     "development": [
       "last 1 chrome version",

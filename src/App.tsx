@@ -3,7 +3,9 @@ import MintToken from './mintToken';
 import './App.css';
 import MintNFT from './MintNFT';
 import { Wallet } from './wallet';
-import { SendSOLToRandomAddress } from './wallet';
+import {MintTokenWallet} from './minTokenWallet'
+
+
 
 function App() {
   return (
@@ -11,7 +13,6 @@ function App() {
       <header className="App-header">
         <div>
           <Wallet/>
-          <SendSOLToRandomAddress/>
           <MintToken/>
           <MintNFT/>
         </div>
